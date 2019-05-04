@@ -24,7 +24,8 @@ github_username:  riki8686
 
 # Build settings
 markdown: kramdown
-theme: hacker
+theme: jekyll-theme-hacker
+google_analytics: UA-61262896-2
 #plugins:
 #  - jekyll-feed
 
