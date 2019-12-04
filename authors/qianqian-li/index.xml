@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>QianQian Li | Riccardo Spolaor, Ph.D.</title>
+    <link>http://www.spolaor.com/authors/qianqian-li/</link>
+      <atom:link href="http://www.spolaor.com/authors/qianqian-li/index.xml" rel="self" type="application/rss+xml" />
+    <description>QianQian Li</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Thu, 28 Nov 2019 14:47:46 +0800</lastBuildDate>
+    <image>
+      <url>http://www.spolaor.com/img/icon-192.png</url>
+      <title>QianQian Li</title>
+      <link>http://www.spolaor.com/authors/qianqian-li/</link>
+    </image>
+    
+    <item>
+      <title>Type me the truth!: detecting deceitful users via keystroke dynamics</title>
+      <link>http://www.spolaor.com/publication/type-me-the-truth/</link>
+      <pubDate>Thu, 28 Nov 2019 14:47:46 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/type-me-the-truth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Dark Side (-Channel) of Mobile Devices: A Survey on Network Traffic Analysis</title>
+      <link>http://www.spolaor.com/publication/the-dark-side-channel/</link>
+      <pubDate>Mon, 04 Jun 2018 14:48:00 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/the-dark-side-channel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biometric Authentication Methods on Smartphones: A Survey</title>
+      <link>http://www.spolaor.com/publication/biometric-auth-survey/</link>
+      <pubDate>Thu, 01 Dec 2016 14:46:55 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/biometric-auth-survey/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

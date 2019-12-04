@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bushra Alahmadi | Riccardo Spolaor, Ph.D.</title>
+    <link>http://www.spolaor.com/authors/bushra-alahmadi/</link>
+      <atom:link href="http://www.spolaor.com/authors/bushra-alahmadi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bushra Alahmadi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Fri, 05 Jun 2020 14:52:01 +0800</lastBuildDate>
+    <image>
+      <url>http://www.spolaor.com/img/icon-192.png</url>
+      <title>Bushra Alahmadi</title>
+      <link>http://www.spolaor.com/authors/bushra-alahmadi/</link>
+    </image>
+    
+    <item>
+      <title>BOTection: Bot Detection by Building Markov Chain Models of Bots Network Behavior</title>
+      <link>http://www.spolaor.com/publication/botection-conference/</link>
+      <pubDate>Fri, 05 Jun 2020 14:52:01 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/botection-conference/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

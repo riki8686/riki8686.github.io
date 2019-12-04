@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>8 | Riccardo Spolaor, Ph.D.</title>
+    <link>http://www.spolaor.com/publication_types/8/</link>
+      <atom:link href="http://www.spolaor.com/publication_types/8/index.xml" rel="self" type="application/rss+xml" />
+    <description>8</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Tue, 20 Aug 2019 14:48:52 +0800</lastBuildDate>
+    <image>
+      <url>http://www.spolaor.com/img/icon-192.png</url>
+      <title>8</title>
+      <link>http://www.spolaor.com/publication_types/8/</link>
+    </image>
+    
+    <item>
+      <title>Method for recognizing if a user of an electronic terminal is a human or a robot</title>
+      <link>http://www.spolaor.com/publication/captchastar-patent-us/</link>
+      <pubDate>Tue, 20 Aug 2019 14:48:52 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/captchastar-patent-us/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

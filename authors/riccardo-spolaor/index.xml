@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Riccardo Spolaor | Riccardo Spolaor, Ph.D.</title>
+    <link>http://www.spolaor.com/authors/riccardo-spolaor/</link>
+      <atom:link href="http://www.spolaor.com/authors/riccardo-spolaor/index.xml" rel="self" type="application/rss+xml" />
+    <description>Riccardo Spolaor</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Fri, 05 Jun 2020 14:52:01 +0800</lastBuildDate>
+    <image>
+      <url>http://www.spolaor.com/img/icon-192.png</url>
+      <title>Riccardo Spolaor</title>
+      <link>http://www.spolaor.com/authors/riccardo-spolaor/</link>
+    </image>
+    
+    <item>
+      <title>BOTection: Bot Detection by Building Markov Chain Models of Bots Network Behavior</title>
+      <link>http://www.spolaor.com/publication/botection-conference/</link>
+      <pubDate>Fri, 05 Jun 2020 14:52:01 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/botection-conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CompactFlow: A Hybrid Binary Format for Network Flow Data</title>
+      <link>http://www.spolaor.com/publication/compactflow-conf/</link>
+      <pubDate>Thu, 12 Dec 2019 14:51:49 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/compactflow-conf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Type me the truth!: detecting deceitful users via keystroke dynamics</title>
+      <link>http://www.spolaor.com/publication/type-me-the-truth/</link>
+      <pubDate>Thu, 28 Nov 2019 14:47:46 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/type-me-the-truth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Resilience of Network-based Moving Target Defense Techniques Against Host Profiling Attacks</title>
+      <link>http://www.spolaor.com/publication/hostbuster-conference/</link>
+      <pubDate>Mon, 11 Nov 2019 14:51:33 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/hostbuster-conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Method for recognizing if a user of an electronic terminal is a human or a robot</title>
+      <link>http://www.spolaor.com/publication/captchastar-patent-us/</link>
+      <pubDate>Tue, 20 Aug 2019 14:48:52 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/captchastar-patent-us/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DART: Detecting Unseen Malware Variants using Adaptation Regularization Transfer Learning</title>
+      <link>http://www.spolaor.com/publication/dart-conference/</link>
+      <pubDate>Fri, 24 May 2019 14:51:07 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/dart-conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MalAlert: Detecting Malware in Large-Scale Network Traffic Using Statistical Features</title>
+      <link>http://www.spolaor.com/publication/malalert-conference/</link>
+      <pubDate>Fri, 25 Jan 2019 14:50:57 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/malalert-conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> No Free Charge Theorem 2.0: How to Steal Private Information from a Mobile Device Using a Powerbank</title>
+      <link>http://www.spolaor.com/talk/blackhat-eu-2018-talk/</link>
+      <pubDate>Wed, 05 Dec 2018 10:47:42 +0800</pubDate>
+      <guid>http://www.spolaor.com/talk/blackhat-eu-2018-talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The online identity detection via keyboard dynamics</title>
+      <link>http://www.spolaor.com/publication/online-identity-detection/</link>
+      <pubDate>Sun, 18 Nov 2018 14:49:54 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/online-identity-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lexical Mining of Malicious URLs for Classifying Android Malware</title>
+      <link>http://www.spolaor.com/publication/lexical-mining-url/</link>
+      <pubDate>Wed, 08 Aug 2018 14:50:43 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/lexical-mining-url/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Dark Side (-Channel) of Mobile Devices: A Survey on Network Traffic Analysis</title>
+      <link>http://www.spolaor.com/publication/the-dark-side-channel/</link>
+      <pubDate>Mon, 04 Jun 2018 14:48:00 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/the-dark-side-channel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DELTA: Data Extraction and Logging Tool for Android</title>
+      <link>http://www.spolaor.com/publication/delta/</link>
+      <pubDate>Fri, 01 Jun 2018 14:48:27 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/delta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Covert lie detection using keyboard dynamics</title>
+      <link>http://www.spolaor.com/publication/covert-lie-detection-keyboard/</link>
+      <pubDate>Sun, 28 Jan 2018 14:49:34 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/covert-lie-detection-keyboard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security and Privacy Threats on Mobile Devices through Side-Channels Analysis</title>
+      <link>http://www.spolaor.com/publication/phd-thesis/</link>
+      <pubDate>Mon, 04 Dec 2017 08:59:21 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/phd-thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mirage: Toward a Stealthier and Modular Malware Analysis Sandbox for Android</title>
+      <link>http://www.spolaor.com/publication/mirage-conference/</link>
+      <pubDate>Sat, 12 Aug 2017 14:48:15 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/mirage-conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust smartphone app identification via encrypted network traffic analysis</title>
+      <link>http://www.spolaor.com/publication/appscanner-journal/</link>
+      <pubDate>Wed, 09 Aug 2017 14:45:13 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/appscanner-journal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>No Free Charge Theorem: A Covert Channel via USB Charging Cable on Mobile Devices</title>
+      <link>http://www.spolaor.com/publication/no-free-charge-theorem-conference/</link>
+      <pubDate>Mon, 10 Jul 2017 14:46:02 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/no-free-charge-theorem-conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>You Surf so Strange Today: Anomaly Detection in Web Services via HMM and CTMC</title>
+      <link>http://www.spolaor.com/publication/you-surf-so-strange-today/</link>
+      <pubDate>Thu, 11 May 2017 14:46:36 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/you-surf-so-strange-today/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>You are how you play: Authenticating mobile users via game playing</title>
+      <link>http://www.spolaor.com/publication/you-are-how-you-play/</link>
+      <pubDate>Fri, 28 Apr 2017 14:47:12 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/you-are-how-you-play/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biometric Authentication Methods on Smartphones: A Survey</title>
+      <link>http://www.spolaor.com/publication/biometric-auth-survey/</link>
+      <pubDate>Thu, 01 Dec 2016 14:46:55 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/biometric-auth-survey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CAPTCHaStar! A novel CAPTCHA based on interactive shape discovery</title>
+      <link>http://www.spolaor.com/publication/captchastar/</link>
+      <pubDate>Sun, 19 Jun 2016 14:43:38 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/captchastar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mind the plug! Laptop-user recognition through power consumption</title>
+      <link>http://www.spolaor.com/publication/mind-the-plug/</link>
+      <pubDate>Mon, 30 May 2016 14:45:33 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/mind-the-plug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Appscanner: Automatic fingerprinting of smartphone apps from encrypted network traffic</title>
+      <link>http://www.spolaor.com/publication/appscanner-conference/</link>
+      <pubDate>Mon, 21 Mar 2016 14:45:07 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/appscanner-conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the effectiveness of sensor-enhanced keystroke dynamics against statistical attacks</title>
+      <link>http://www.spolaor.com/publication/on-the-effectiveness-of-sensor-enhanced/</link>
+      <pubDate>Wed, 09 Mar 2016 14:44:46 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/on-the-effectiveness-of-sensor-enhanced/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analyzing Android Encrypted Network Traffic to Identify User Actions</title>
+      <link>http://www.spolaor.com/publication/cant-you-hear-me-knocking-journal/</link>
+      <pubDate>Mon, 14 Sep 2015 14:43:53 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/cant-you-hear-me-knocking-journal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can&#39;t You Hear Me Knocking: Identification of User Actions on Android Apps via Traffic Analysis</title>
+      <link>http://www.spolaor.com/publication/cant-you-hear-me-knocking/</link>
+      <pubDate>Tue, 03 Mar 2015 14:43:22 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/cant-you-hear-me-knocking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can&#39;t You Hear Me Knocking: Identification of User Actions on Android Apps via Traffic Analysis</title>
+      <link>http://www.spolaor.com/publication/cant-you-hear-me-knocking-thesis/</link>
+      <pubDate>Thu, 17 Apr 2014 14:43:22 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/cant-you-hear-me-knocking-thesis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

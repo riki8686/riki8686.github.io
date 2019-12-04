@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Image-based CAPTCHA | Riccardo Spolaor, Ph.D.</title>
+    <link>http://www.spolaor.com/tags/image-based-captcha/</link>
+      <atom:link href="http://www.spolaor.com/tags/image-based-captcha/index.xml" rel="self" type="application/rss+xml" />
+    <description>Image-based CAPTCHA</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Sun, 19 Jun 2016 14:43:38 +0800</lastBuildDate>
+    <image>
+      <url>http://www.spolaor.com/img/icon-192.png</url>
+      <title>Image-based CAPTCHA</title>
+      <link>http://www.spolaor.com/tags/image-based-captcha/</link>
+    </image>
+    
+    <item>
+      <title>CAPTCHaStar! A novel CAPTCHA based on interactive shape discovery</title>
+      <link>http://www.spolaor.com/publication/captchastar/</link>
+      <pubDate>Sun, 19 Jun 2016 14:43:38 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/captchastar/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

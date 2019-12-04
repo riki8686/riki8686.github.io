@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Accellerometer | Riccardo Spolaor, Ph.D.</title>
+    <link>http://www.spolaor.com/tags/accellerometer/</link>
+      <atom:link href="http://www.spolaor.com/tags/accellerometer/index.xml" rel="self" type="application/rss+xml" />
+    <description>Accellerometer</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Wed, 09 Mar 2016 14:44:46 +0800</lastBuildDate>
+    <image>
+      <url>http://www.spolaor.com/img/icon-192.png</url>
+      <title>Accellerometer</title>
+      <link>http://www.spolaor.com/tags/accellerometer/</link>
+    </image>
+    
+    <item>
+      <title>On the effectiveness of sensor-enhanced keystroke dynamics against statistical attacks</title>
+      <link>http://www.spolaor.com/publication/on-the-effectiveness-of-sensor-enhanced/</link>
+      <pubDate>Wed, 09 Mar 2016 14:44:46 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/on-the-effectiveness-of-sensor-enhanced/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

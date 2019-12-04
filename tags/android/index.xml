@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android | Riccardo Spolaor, Ph.D.</title>
+    <link>http://www.spolaor.com/tags/android/</link>
+      <atom:link href="http://www.spolaor.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <description>Android</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Fri, 24 May 2019 14:51:07 +0800</lastBuildDate>
+    <image>
+      <url>http://www.spolaor.com/img/icon-192.png</url>
+      <title>Android</title>
+      <link>http://www.spolaor.com/tags/android/</link>
+    </image>
+    
+    <item>
+      <title>DART: Detecting Unseen Malware Variants using Adaptation Regularization Transfer Learning</title>
+      <link>http://www.spolaor.com/publication/dart-conference/</link>
+      <pubDate>Fri, 24 May 2019 14:51:07 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/dart-conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lexical Mining of Malicious URLs for Classifying Android Malware</title>
+      <link>http://www.spolaor.com/publication/lexical-mining-url/</link>
+      <pubDate>Wed, 08 Aug 2018 14:50:43 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/lexical-mining-url/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DELTA: Data Extraction and Logging Tool for Android</title>
+      <link>http://www.spolaor.com/publication/delta/</link>
+      <pubDate>Fri, 01 Jun 2018 14:48:27 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/delta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mirage: Toward a Stealthier and Modular Malware Analysis Sandbox for Android</title>
+      <link>http://www.spolaor.com/publication/mirage-conference/</link>
+      <pubDate>Sat, 12 Aug 2017 14:48:15 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/mirage-conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust smartphone app identification via encrypted network traffic analysis</title>
+      <link>http://www.spolaor.com/publication/appscanner-journal/</link>
+      <pubDate>Wed, 09 Aug 2017 14:45:13 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/appscanner-journal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>No Free Charge Theorem: A Covert Channel via USB Charging Cable on Mobile Devices</title>
+      <link>http://www.spolaor.com/publication/no-free-charge-theorem-conference/</link>
+      <pubDate>Mon, 10 Jul 2017 14:46:02 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/no-free-charge-theorem-conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>You are how you play: Authenticating mobile users via game playing</title>
+      <link>http://www.spolaor.com/publication/you-are-how-you-play/</link>
+      <pubDate>Fri, 28 Apr 2017 14:47:12 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/you-are-how-you-play/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Appscanner: Automatic fingerprinting of smartphone apps from encrypted network traffic</title>
+      <link>http://www.spolaor.com/publication/appscanner-conference/</link>
+      <pubDate>Mon, 21 Mar 2016 14:45:07 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/appscanner-conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the effectiveness of sensor-enhanced keystroke dynamics against statistical attacks</title>
+      <link>http://www.spolaor.com/publication/on-the-effectiveness-of-sensor-enhanced/</link>
+      <pubDate>Wed, 09 Mar 2016 14:44:46 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/on-the-effectiveness-of-sensor-enhanced/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analyzing Android Encrypted Network Traffic to Identify User Actions</title>
+      <link>http://www.spolaor.com/publication/cant-you-hear-me-knocking-journal/</link>
+      <pubDate>Mon, 14 Sep 2015 14:43:53 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/cant-you-hear-me-knocking-journal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can&#39;t You Hear Me Knocking: Identification of User Actions on Android Apps via Traffic Analysis</title>
+      <link>http://www.spolaor.com/publication/cant-you-hear-me-knocking/</link>
+      <pubDate>Tue, 03 Mar 2015 14:43:22 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/cant-you-hear-me-knocking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can&#39;t You Hear Me Knocking: Identification of User Actions on Android Apps via Traffic Analysis</title>
+      <link>http://www.spolaor.com/publication/cant-you-hear-me-knocking-thesis/</link>
+      <pubDate>Thu, 17 Apr 2014 14:43:22 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/cant-you-hear-me-knocking-thesis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

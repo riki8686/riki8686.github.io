@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Screen unlock | Riccardo Spolaor, Ph.D.</title>
+    <link>http://www.spolaor.com/tags/screen-unlock/</link>
+      <atom:link href="http://www.spolaor.com/tags/screen-unlock/index.xml" rel="self" type="application/rss+xml" />
+    <description>Screen unlock</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Fri, 28 Apr 2017 14:47:12 +0800</lastBuildDate>
+    <image>
+      <url>http://www.spolaor.com/img/icon-192.png</url>
+      <title>Screen unlock</title>
+      <link>http://www.spolaor.com/tags/screen-unlock/</link>
+    </image>
+    
+    <item>
+      <title>You are how you play: Authenticating mobile users via game playing</title>
+      <link>http://www.spolaor.com/publication/you-are-how-you-play/</link>
+      <pubDate>Fri, 28 Apr 2017 14:47:12 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/you-are-how-you-play/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

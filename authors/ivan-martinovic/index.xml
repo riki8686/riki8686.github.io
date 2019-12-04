@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ivan Martinovic | Riccardo Spolaor, Ph.D.</title>
+    <link>http://www.spolaor.com/authors/ivan-martinovic/</link>
+      <atom:link href="http://www.spolaor.com/authors/ivan-martinovic/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ivan Martinovic</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Fri, 05 Jun 2020 14:52:01 +0800</lastBuildDate>
+    <image>
+      <url>http://www.spolaor.com/img/icon-192.png</url>
+      <title>Ivan Martinovic</title>
+      <link>http://www.spolaor.com/authors/ivan-martinovic/</link>
+    </image>
+    
+    <item>
+      <title>BOTection: Bot Detection by Building Markov Chain Models of Bots Network Behavior</title>
+      <link>http://www.spolaor.com/publication/botection-conference/</link>
+      <pubDate>Fri, 05 Jun 2020 14:52:01 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/botection-conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Resilience of Network-based Moving Target Defense Techniques Against Host Profiling Attacks</title>
+      <link>http://www.spolaor.com/publication/hostbuster-conference/</link>
+      <pubDate>Mon, 11 Nov 2019 14:51:33 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/hostbuster-conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MalAlert: Detecting Malware in Large-Scale Network Traffic Using Statistical Features</title>
+      <link>http://www.spolaor.com/publication/malalert-conference/</link>
+      <pubDate>Fri, 25 Jan 2019 14:50:57 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/malalert-conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust smartphone app identification via encrypted network traffic analysis</title>
+      <link>http://www.spolaor.com/publication/appscanner-journal/</link>
+      <pubDate>Wed, 09 Aug 2017 14:45:13 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/appscanner-journal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Appscanner: Automatic fingerprinting of smartphone apps from encrypted network traffic</title>
+      <link>http://www.spolaor.com/publication/appscanner-conference/</link>
+      <pubDate>Mon, 21 Mar 2016 14:45:07 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/appscanner-conference/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

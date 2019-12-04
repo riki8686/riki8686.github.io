@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7 | Riccardo Spolaor, Ph.D.</title>
+    <link>http://www.spolaor.com/publication_types/7/</link>
+      <atom:link href="http://www.spolaor.com/publication_types/7/index.xml" rel="self" type="application/rss+xml" />
+    <description>7</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Mon, 04 Dec 2017 08:59:21 +0800</lastBuildDate>
+    <image>
+      <url>http://www.spolaor.com/img/icon-192.png</url>
+      <title>7</title>
+      <link>http://www.spolaor.com/publication_types/7/</link>
+    </image>
+    
+    <item>
+      <title>Security and Privacy Threats on Mobile Devices through Side-Channels Analysis</title>
+      <link>http://www.spolaor.com/publication/phd-thesis/</link>
+      <pubDate>Mon, 04 Dec 2017 08:59:21 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/phd-thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can&#39;t You Hear Me Knocking: Identification of User Actions on Android Apps via Traffic Analysis</title>
+      <link>http://www.spolaor.com/publication/cant-you-hear-me-knocking-thesis/</link>
+      <pubDate>Thu, 17 Apr 2014 14:43:22 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/cant-you-hear-me-knocking-thesis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fake accounts | Riccardo Spolaor, Ph.D.</title>
+    <link>http://www.spolaor.com/tags/fake-accounts/</link>
+      <atom:link href="http://www.spolaor.com/tags/fake-accounts/index.xml" rel="self" type="application/rss+xml" />
+    <description>Fake accounts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Thu, 28 Nov 2019 14:47:46 +0800</lastBuildDate>
+    <image>
+      <url>http://www.spolaor.com/img/icon-192.png</url>
+      <title>Fake accounts</title>
+      <link>http://www.spolaor.com/tags/fake-accounts/</link>
+    </image>
+    
+    <item>
+      <title>Type me the truth!: detecting deceitful users via keystroke dynamics</title>
+      <link>http://www.spolaor.com/publication/type-me-the-truth/</link>
+      <pubDate>Thu, 28 Nov 2019 14:47:46 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/type-me-the-truth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The online identity detection via keyboard dynamics</title>
+      <link>http://www.spolaor.com/publication/online-identity-detection/</link>
+      <pubDate>Sun, 18 Nov 2018 14:49:54 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/online-identity-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Covert lie detection using keyboard dynamics</title>
+      <link>http://www.spolaor.com/publication/covert-lie-detection-keyboard/</link>
+      <pubDate>Sun, 28 Jan 2018 14:49:34 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/covert-lie-detection-keyboard/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

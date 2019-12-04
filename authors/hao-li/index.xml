@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hao Li | Riccardo Spolaor, Ph.D.</title>
+    <link>http://www.spolaor.com/authors/hao-li/</link>
+      <atom:link href="http://www.spolaor.com/authors/hao-li/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hao Li</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Fri, 24 May 2019 14:51:07 +0800</lastBuildDate>
+    <image>
+      <url>http://www.spolaor.com/img/icon-192.png</url>
+      <title>Hao Li</title>
+      <link>http://www.spolaor.com/authors/hao-li/</link>
+    </image>
+    
+    <item>
+      <title>DART: Detecting Unseen Malware Variants using Adaptation Regularization Transfer Learning</title>
+      <link>http://www.spolaor.com/publication/dart-conference/</link>
+      <pubDate>Fri, 24 May 2019 14:51:07 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/dart-conference/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

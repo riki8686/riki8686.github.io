@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shanshan Wang | Riccardo Spolaor, Ph.D.</title>
+    <link>http://www.spolaor.com/authors/shanshan-wang/</link>
+      <atom:link href="http://www.spolaor.com/authors/shanshan-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shanshan Wang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Wed, 08 Aug 2018 14:50:43 +0800</lastBuildDate>
+    <image>
+      <url>http://www.spolaor.com/img/icon-192.png</url>
+      <title>Shanshan Wang</title>
+      <link>http://www.spolaor.com/authors/shanshan-wang/</link>
+    </image>
+    
+    <item>
+      <title>Lexical Mining of Malicious URLs for Classifying Android Malware</title>
+      <link>http://www.spolaor.com/publication/lexical-mining-url/</link>
+      <pubDate>Wed, 08 Aug 2018 14:50:43 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/lexical-mining-url/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

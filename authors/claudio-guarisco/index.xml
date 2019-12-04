@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Claudio Guarisco | Riccardo Spolaor, Ph.D.</title>
+    <link>http://www.spolaor.com/authors/claudio-guarisco/</link>
+      <atom:link href="http://www.spolaor.com/authors/claudio-guarisco/index.xml" rel="self" type="application/rss+xml" />
+    <description>Claudio Guarisco</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Tue, 20 Aug 2019 14:48:52 +0800</lastBuildDate>
+    <image>
+      <url>http://www.spolaor.com/img/icon-192.png</url>
+      <title>Claudio Guarisco</title>
+      <link>http://www.spolaor.com/authors/claudio-guarisco/</link>
+    </image>
+    
+    <item>
+      <title>Method for recognizing if a user of an electronic terminal is a human or a robot</title>
+      <link>http://www.spolaor.com/publication/captchastar-patent-us/</link>
+      <pubDate>Tue, 20 Aug 2019 14:48:52 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/captchastar-patent-us/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CAPTCHaStar! A novel CAPTCHA based on interactive shape discovery</title>
+      <link>http://www.spolaor.com/publication/captchastar/</link>
+      <pubDate>Sun, 19 Jun 2016 14:43:38 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/captchastar/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security | Riccardo Spolaor, Ph.D.</title>
+    <link>http://www.spolaor.com/tags/security/</link>
+      <atom:link href="http://www.spolaor.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <description>Security</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Thu, 28 Nov 2019 14:47:46 +0800</lastBuildDate>
+    <image>
+      <url>http://www.spolaor.com/img/icon-192.png</url>
+      <title>Security</title>
+      <link>http://www.spolaor.com/tags/security/</link>
+    </image>
+    
+    <item>
+      <title>Type me the truth!: detecting deceitful users via keystroke dynamics</title>
+      <link>http://www.spolaor.com/publication/type-me-the-truth/</link>
+      <pubDate>Thu, 28 Nov 2019 14:47:46 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/type-me-the-truth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Method for recognizing if a user of an electronic terminal is a human or a robot</title>
+      <link>http://www.spolaor.com/publication/captchastar-patent-us/</link>
+      <pubDate>Tue, 20 Aug 2019 14:48:52 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/captchastar-patent-us/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DART: Detecting Unseen Malware Variants using Adaptation Regularization Transfer Learning</title>
+      <link>http://www.spolaor.com/publication/dart-conference/</link>
+      <pubDate>Fri, 24 May 2019 14:51:07 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/dart-conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The online identity detection via keyboard dynamics</title>
+      <link>http://www.spolaor.com/publication/online-identity-detection/</link>
+      <pubDate>Sun, 18 Nov 2018 14:49:54 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/online-identity-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Covert lie detection using keyboard dynamics</title>
+      <link>http://www.spolaor.com/publication/covert-lie-detection-keyboard/</link>
+      <pubDate>Sun, 28 Jan 2018 14:49:34 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/covert-lie-detection-keyboard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust smartphone app identification via encrypted network traffic analysis</title>
+      <link>http://www.spolaor.com/publication/appscanner-journal/</link>
+      <pubDate>Wed, 09 Aug 2017 14:45:13 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/appscanner-journal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CAPTCHaStar! A novel CAPTCHA based on interactive shape discovery</title>
+      <link>http://www.spolaor.com/publication/captchastar/</link>
+      <pubDate>Sun, 19 Jun 2016 14:43:38 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/captchastar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Appscanner: Automatic fingerprinting of smartphone apps from encrypted network traffic</title>
+      <link>http://www.spolaor.com/publication/appscanner-conference/</link>
+      <pubDate>Mon, 21 Mar 2016 14:45:07 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/appscanner-conference/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

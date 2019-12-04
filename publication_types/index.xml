@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publication_types | Riccardo Spolaor, Ph.D.</title>
+    <link>http://www.spolaor.com/publication_types/</link>
+      <atom:link href="http://www.spolaor.com/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publication_types</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Fri, 05 Jun 2020 14:52:01 +0800</lastBuildDate>
+    <image>
+      <url>http://www.spolaor.com/img/icon-192.png</url>
+      <title>Publication_types</title>
+      <link>http://www.spolaor.com/publication_types/</link>
+    </image>
+    
+    <item>
+      <title>1</title>
+      <link>http://www.spolaor.com/publication_types/1/</link>
+      <pubDate>Fri, 05 Jun 2020 14:52:01 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication_types/1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>8</title>
+      <link>http://www.spolaor.com/publication_types/8/</link>
+      <pubDate>Tue, 20 Aug 2019 14:48:52 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication_types/8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2</title>
+      <link>http://www.spolaor.com/publication_types/2/</link>
+      <pubDate>Mon, 04 Jun 2018 14:48:00 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication_types/2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>7</title>
+      <link>http://www.spolaor.com/publication_types/7/</link>
+      <pubDate>Mon, 04 Dec 2017 08:59:21 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication_types/7/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

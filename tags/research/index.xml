@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research | Riccardo Spolaor, Ph.D.</title>
+    <link>http://www.spolaor.com/tags/research/</link>
+      <atom:link href="http://www.spolaor.com/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    <description>Research</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Fri, 01 Jun 2018 14:48:27 +0800</lastBuildDate>
+    <image>
+      <url>http://www.spolaor.com/img/icon-192.png</url>
+      <title>Research</title>
+      <link>http://www.spolaor.com/tags/research/</link>
+    </image>
+    
+    <item>
+      <title>DELTA: Data Extraction and Logging Tool for Android</title>
+      <link>http://www.spolaor.com/publication/delta/</link>
+      <pubDate>Fri, 01 Jun 2018 14:48:27 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/delta/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

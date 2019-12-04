@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.6.2">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Riccardo Spolaor">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="
+The Internet of Things (IoT) paradigm, in conjunction with the one of smart cities, is pursuing toward the concept of smart buildings, i.e., &#39;intelligent&#39; buildings able to receive data from a network of sensors and thus to adapt the environment. IoT sensors can monitor a wide range of environmental features such as the energy consumption inside a building at fine-grained level (e.g., for a specific wall-socket). Some smart buildings already deploy energy monitoring in order to optimize the energy use for good purposes (e.g., to save money, to reduce pollution). Unfortunately, such measurements raise a significant amount of privacy concerns. In this paper, we investigate the feasibility of recognizing the pair laptop-user (i.e., a user using her own laptop) from the energy traces produced by her laptop. We design MTPlug, a framework that achieves this goal relying on supervised machine learning techniques as pattern recognition in multivariate time series. We present a comprehensive implementation of this system and run a thorough set of experiments. In particular, we collected data by monitoring the energy consumption of two groups of laptop users, some office employees and some intruders, for a total of 27 people. We show that our system is able to build an energy profile for a laptop user with accuracy above 80%, in less than 3.5 hours of laptop usage. To the best of our knowledge, this is the first research that assesses the feasibility of laptop users profiling relying uniquely on fine-grained energy traces collected using wall-socket smart meters. ">
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://www.spolaor.com/publication/mind-the-plug/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="http://www.spolaor.com/publication/mind-the-plug/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Riccardo Spolaor, Ph.D.">
+  <meta property="og:url" content="http://www.spolaor.com/publication/mind-the-plug/">
+  <meta property="og:title" content="Mind the plug! Laptop-user recognition through power consumption | Riccardo Spolaor, Ph.D.">
+  <meta property="og:description" content="
+The Internet of Things (IoT) paradigm, in conjunction with the one of smart cities, is pursuing toward the concept of smart buildings, i.e., &#39;intelligent&#39; buildings able to receive data from a network of sensors and thus to adapt the environment. IoT sensors can monitor a wide range of environmental features such as the energy consumption inside a building at fine-grained level (e.g., for a specific wall-socket). Some smart buildings already deploy energy monitoring in order to optimize the energy use for good purposes (e.g., to save money, to reduce pollution). Unfortunately, such measurements raise a significant amount of privacy concerns. In this paper, we investigate the feasibility of recognizing the pair laptop-user (i.e., a user using her own laptop) from the energy traces produced by her laptop. We design MTPlug, a framework that achieves this goal relying on supervised machine learning techniques as pattern recognition in multivariate time series. We present a comprehensive implementation of this system and run a thorough set of experiments. In particular, we collected data by monitoring the energy consumption of two groups of laptop users, some office employees and some intruders, for a total of 27 people. We show that our system is able to build an energy profile for a laptop user with accuracy above 80%, in less than 3.5 hours of laptop usage. To the best of our knowledge, this is the first research that assesses the feasibility of laptop users profiling relying uniquely on fine-grained energy traces collected using wall-socket smart meters. "><meta property="og:image" content="http://www.spolaor.com/img/icon-192.png">
+  <meta property="twitter:image" content="http://www.spolaor.com/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2016-05-30T14:45:33&#43;08:00">
+    
+    <meta property="article:modified_time" content="2019-12-04T11:10:48&#43;08:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://www.spolaor.com/publication/mind-the-plug/"
+  },
+  "headline": "Mind the plug! Laptop-user recognition through power consumption",
+  
+  "datePublished": "2016-05-30T14:45:33+08:00",
+  "dateModified": "2019-12-04T11:10:48+08:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Mauro Conti"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Riccardo Spolaor, Ph.D.",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://www.spolaor.com/img/icon-512.png"
+    }
+  },
+  "description": "\nThe Internet of Things (IoT) paradigm, in conjunction with the one of smart cities, is pursuing toward the concept of smart buildings, i.e., 'intelligent' buildings able to receive data from a network of sensors and thus to adapt the environment. IoT sensors can monitor a wide range of environmental features such as the energy consumption inside a building at fine-grained level (e.g., for a specific wall-socket). Some smart buildings already deploy energy monitoring in order to optimize the energy use for good purposes (e.g., to save money, to reduce pollution). Unfortunately, such measurements raise a significant amount of privacy concerns. In this paper, we investigate the feasibility of recognizing the pair laptop-user (i.e., a user using her own laptop) from the energy traces produced by her laptop. We design MTPlug, a framework that achieves this goal relying on supervised machine learning techniques as pattern recognition in multivariate time series. We present a comprehensive implementation of this system and run a thorough set of experiments. In particular, we collected data by monitoring the energy consumption of two groups of laptop users, some office employees and some intruders, for a total of 27 people. We show that our system is able to build an energy profile for a laptop user with accuracy above 80%, in less than 3.5 hours of laptop usage. To the best of our knowledge, this is the first research that assesses the feasibility of laptop users profiling relying uniquely on fine-grained energy traces collected using wall-socket smart meters. "
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Mind the plug! Laptop-user recognition through power consumption | Riccardo Spolaor, Ph.D.</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    
+    
+      <a class="navbar-brand" href="/">Riccardo Spolaor, Ph.D.</a>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Mind the plug! Laptop-user recognition through power consumption</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span><a href="/authors/mauro-conti/">Mauro Conti</a></span>, <span><a href="/authors/michele-nati/">Michele Nati</a></span>, <span><a href="/authors/enrico-rotundo/">Enrico Rotundo</a></span>, <span><a href="/authors/riccardo-spolaor/">Riccardo Spolaor</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    May 2016
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://dl.acm.org/citation.cfm?id=2899009" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/mind-the-plug/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/https://doi.org/10.1145/2899007.2899009" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">The Internet of Things (IoT) paradigm, in conjunction with the one of smart cities, is pursuing toward the concept of smart buildings, i.e., &lsquo;intelligent&rsquo; buildings able to receive data from a network of sensors and thus to adapt the environment. IoT sensors can monitor a wide range of environmental features such as the energy consumption inside a building at fine-grained level (e.g., for a specific wall-socket). Some smart buildings already deploy energy monitoring in order to optimize the energy use for good purposes (e.g., to save money, to reduce pollution). Unfortunately, such measurements raise a significant amount of privacy concerns. In this paper, we investigate the feasibility of recognizing the pair laptop-user (i.e., a user using her own laptop) from the energy traces produced by her laptop. We design MTPlug, a framework that achieves this goal relying on supervised machine learning techniques as pattern recognition in multivariate time series. We present a comprehensive implementation of this system and run a thorough set of experiments. In particular, we collected data by monitoring the energy consumption of two groups of laptop users, some office employees and some intruders, for a total of 27 people. We show that our system is able to build an energy profile for a laptop user with accuracy above 80%, in less than 3.5 hours of laptop usage. To the best of our knowledge, this is the first research that assesses the feasibility of laptop users profiling relying uniquely on fine-grained energy traces collected using wall-socket smart meters.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">ACM International Workshop on IoT Privacy, Trust, and Security</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/laptop/">Laptop</a>
+  
+  <a class="badge badge-light" href="/tags/energy-consumption/">Energy consumption</a>
+  
+  <a class="badge badge-light" href="/tags/energy/">Energy</a>
+  
+  <a class="badge badge-light" href="/tags/side-channel/">Side-channel</a>
+  
+  <a class="badge badge-light" href="/tags/intrusion-detection/">Intrusion detection</a>
+  
+  <a class="badge badge-light" href="/tags/machine-learning/">Machine Learning</a>
+  
+  <a class="badge badge-light" href="/tags/classification/">Classification</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=http://www.spolaor.com/publication/mind-the-plug/&amp;text=Mind%20the%20plug!%20Laptop-user%20recognition%20through%20power%20consumption" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=http://www.spolaor.com/publication/mind-the-plug/&amp;t=Mind%20the%20plug!%20Laptop-user%20recognition%20through%20power%20consumption" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Mind%20the%20plug!%20Laptop-user%20recognition%20through%20power%20consumption&amp;body=http://www.spolaor.com/publication/mind-the-plug/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=http://www.spolaor.com/publication/mind-the-plug/&amp;title=Mind%20the%20plug!%20Laptop-user%20recognition%20through%20power%20consumption" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Mind%20the%20plug!%20Laptop-user%20recognition%20through%20power%20consumption%20http://www.spolaor.com/publication/mind-the-plug/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=http://www.spolaor.com/publication/mind-the-plug/&amp;title=Mind%20the%20plug!%20Laptop-user%20recognition%20through%20power%20consumption" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/mauro-conti/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/cant-you-hear-me-knocking/">Can&#39;t You Hear Me Knocking: Identification of User Actions on Android Apps via Traffic Analysis</a></li>
+      
+      <li><a href="/publication/cant-you-hear-me-knocking-thesis/">Can&#39;t You Hear Me Knocking: Identification of User Actions on Android Apps via Traffic Analysis</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+  </div>
+</div>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.bcfae8267aba63cc55af53a503896bd9.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    2019 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

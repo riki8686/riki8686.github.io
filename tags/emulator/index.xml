@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emulator | Riccardo Spolaor, Ph.D.</title>
+    <link>http://www.spolaor.com/tags/emulator/</link>
+      <atom:link href="http://www.spolaor.com/tags/emulator/index.xml" rel="self" type="application/rss+xml" />
+    <description>Emulator</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Sat, 12 Aug 2017 14:48:15 +0800</lastBuildDate>
+    <image>
+      <url>http://www.spolaor.com/img/icon-192.png</url>
+      <title>Emulator</title>
+      <link>http://www.spolaor.com/tags/emulator/</link>
+    </image>
+    
+    <item>
+      <title>Mirage: Toward a Stealthier and Modular Malware Analysis Sandbox for Android</title>
+      <link>http://www.spolaor.com/publication/mirage-conference/</link>
+      <pubDate>Sat, 12 Aug 2017 14:48:15 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/mirage-conference/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wireless networks | Riccardo Spolaor, Ph.D.</title>
+    <link>http://www.spolaor.com/tags/wireless-networks/</link>
+      <atom:link href="http://www.spolaor.com/tags/wireless-networks/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wireless networks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Mon, 04 Jun 2018 14:48:00 +0800</lastBuildDate>
+    <image>
+      <url>http://www.spolaor.com/img/icon-192.png</url>
+      <title>Wireless networks</title>
+      <link>http://www.spolaor.com/tags/wireless-networks/</link>
+    </image>
+    
+    <item>
+      <title>The Dark Side (-Channel) of Mobile Devices: A Survey on Network Traffic Analysis</title>
+      <link>http://www.spolaor.com/publication/the-dark-side-channel/</link>
+      <pubDate>Mon, 04 Jun 2018 14:48:00 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/the-dark-side-channel/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

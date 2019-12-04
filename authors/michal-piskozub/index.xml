@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michal Piskozub | Riccardo Spolaor, Ph.D.</title>
+    <link>http://www.spolaor.com/authors/michal-piskozub/</link>
+      <atom:link href="http://www.spolaor.com/authors/michal-piskozub/index.xml" rel="self" type="application/rss+xml" />
+    <description>Michal Piskozub</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Thu, 12 Dec 2019 14:51:49 +0800</lastBuildDate>
+    <image>
+      <url>http://www.spolaor.com/img/icon-192.png</url>
+      <title>Michal Piskozub</title>
+      <link>http://www.spolaor.com/authors/michal-piskozub/</link>
+    </image>
+    
+    <item>
+      <title>CompactFlow: A Hybrid Binary Format for Network Flow Data</title>
+      <link>http://www.spolaor.com/publication/compactflow-conf/</link>
+      <pubDate>Thu, 12 Dec 2019 14:51:49 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/compactflow-conf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Resilience of Network-based Moving Target Defense Techniques Against Host Profiling Attacks</title>
+      <link>http://www.spolaor.com/publication/hostbuster-conference/</link>
+      <pubDate>Mon, 11 Nov 2019 14:51:33 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/hostbuster-conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MalAlert: Detecting Malware in Large-Scale Network Traffic Using Statistical Features</title>
+      <link>http://www.spolaor.com/publication/malalert-conference/</link>
+      <pubDate>Fri, 25 Jan 2019 14:50:57 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/malalert-conference/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

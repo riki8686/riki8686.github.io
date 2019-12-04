@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Classification | Riccardo Spolaor, Ph.D.</title>
+    <link>http://www.spolaor.com/tags/classification/</link>
+      <atom:link href="http://www.spolaor.com/tags/classification/index.xml" rel="self" type="application/rss+xml" />
+    <description>Classification</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Fri, 25 Jan 2019 14:50:57 +0800</lastBuildDate>
+    <image>
+      <url>http://www.spolaor.com/img/icon-192.png</url>
+      <title>Classification</title>
+      <link>http://www.spolaor.com/tags/classification/</link>
+    </image>
+    
+    <item>
+      <title>MalAlert: Detecting Malware in Large-Scale Network Traffic Using Statistical Features</title>
+      <link>http://www.spolaor.com/publication/malalert-conference/</link>
+      <pubDate>Fri, 25 Jan 2019 14:50:57 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/malalert-conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust smartphone app identification via encrypted network traffic analysis</title>
+      <link>http://www.spolaor.com/publication/appscanner-journal/</link>
+      <pubDate>Wed, 09 Aug 2017 14:45:13 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/appscanner-journal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mind the plug! Laptop-user recognition through power consumption</title>
+      <link>http://www.spolaor.com/publication/mind-the-plug/</link>
+      <pubDate>Mon, 30 May 2016 14:45:33 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/mind-the-plug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Appscanner: Automatic fingerprinting of smartphone apps from encrypted network traffic</title>
+      <link>http://www.spolaor.com/publication/appscanner-conference/</link>
+      <pubDate>Mon, 21 Mar 2016 14:45:07 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/appscanner-conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analyzing Android Encrypted Network Traffic to Identify User Actions</title>
+      <link>http://www.spolaor.com/publication/cant-you-hear-me-knocking-journal/</link>
+      <pubDate>Mon, 14 Sep 2015 14:43:53 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/cant-you-hear-me-knocking-journal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can&#39;t You Hear Me Knocking: Identification of User Actions on Android Apps via Traffic Analysis</title>
+      <link>http://www.spolaor.com/publication/cant-you-hear-me-knocking/</link>
+      <pubDate>Tue, 03 Mar 2015 14:43:22 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/cant-you-hear-me-knocking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can&#39;t You Hear Me Knocking: Identification of User Actions on Android Apps via Traffic Analysis</title>
+      <link>http://www.spolaor.com/publication/cant-you-hear-me-knocking-thesis/</link>
+      <pubDate>Thu, 17 Apr 2014 14:43:22 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/cant-you-hear-me-knocking-thesis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bo Yang | Riccardo Spolaor, Ph.D.</title>
+    <link>http://www.spolaor.com/authors/bo-yang/</link>
+      <atom:link href="http://www.spolaor.com/authors/bo-yang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bo Yang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Fri, 24 May 2019 14:51:07 +0800</lastBuildDate>
+    <image>
+      <url>http://www.spolaor.com/img/icon-192.png</url>
+      <title>Bo Yang</title>
+      <link>http://www.spolaor.com/authors/bo-yang/</link>
+    </image>
+    
+    <item>
+      <title>DART: Detecting Unseen Malware Variants using Adaptation Regularization Transfer Learning</title>
+      <link>http://www.spolaor.com/publication/dart-conference/</link>
+      <pubDate>Fri, 24 May 2019 14:51:07 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/dart-conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lexical Mining of Malicious URLs for Classifying Android Malware</title>
+      <link>http://www.spolaor.com/publication/lexical-mining-url/</link>
+      <pubDate>Wed, 08 Aug 2018 14:50:43 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/lexical-mining-url/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

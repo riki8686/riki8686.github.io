@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Operating system | Riccardo Spolaor, Ph.D.</title>
+    <link>http://www.spolaor.com/tags/operating-system/</link>
+      <atom:link href="http://www.spolaor.com/tags/operating-system/index.xml" rel="self" type="application/rss+xml" />
+    <description>Operating system</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Mon, 10 Jul 2017 14:46:02 +0800</lastBuildDate>
+    <image>
+      <url>http://www.spolaor.com/img/icon-192.png</url>
+      <title>Operating system</title>
+      <link>http://www.spolaor.com/tags/operating-system/</link>
+    </image>
+    
+    <item>
+      <title>No Free Charge Theorem: A Covert Channel via USB Charging Cable on Mobile Devices</title>
+      <link>http://www.spolaor.com/publication/no-free-charge-theorem-conference/</link>
+      <pubDate>Mon, 10 Jul 2017 14:46:02 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/no-free-charge-theorem-conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the effectiveness of sensor-enhanced keystroke dynamics against statistical attacks</title>
+      <link>http://www.spolaor.com/publication/on-the-effectiveness-of-sensor-enhanced/</link>
+      <pubDate>Wed, 09 Mar 2016 14:44:46 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/on-the-effectiveness-of-sensor-enhanced/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

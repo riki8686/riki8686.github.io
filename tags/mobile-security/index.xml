@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile security | Riccardo Spolaor, Ph.D.</title>
+    <link>http://www.spolaor.com/tags/mobile-security/</link>
+      <atom:link href="http://www.spolaor.com/tags/mobile-security/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mobile security</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Tue, 03 Mar 2015 14:43:22 +0800</lastBuildDate>
+    <image>
+      <url>http://www.spolaor.com/img/icon-192.png</url>
+      <title>Mobile security</title>
+      <link>http://www.spolaor.com/tags/mobile-security/</link>
+    </image>
+    
+    <item>
+      <title>Can&#39;t You Hear Me Knocking: Identification of User Actions on Android Apps via Traffic Analysis</title>
+      <link>http://www.spolaor.com/publication/cant-you-hear-me-knocking/</link>
+      <pubDate>Tue, 03 Mar 2015 14:43:22 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/cant-you-hear-me-knocking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can&#39;t You Hear Me Knocking: Identification of User Actions on Android Apps via Traffic Analysis</title>
+      <link>http://www.spolaor.com/publication/cant-you-hear-me-knocking-thesis/</link>
+      <pubDate>Thu, 17 Apr 2014 14:43:22 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/cant-you-hear-me-knocking-thesis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

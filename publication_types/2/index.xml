@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Riccardo Spolaor, Ph.D.</title>
+    <link>http://www.spolaor.com/publication_types/2/</link>
+      <atom:link href="http://www.spolaor.com/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Mon, 04 Jun 2018 14:48:00 +0800</lastBuildDate>
+    <image>
+      <url>http://www.spolaor.com/img/icon-192.png</url>
+      <title>2</title>
+      <link>http://www.spolaor.com/publication_types/2/</link>
+    </image>
+    
+    <item>
+      <title>The Dark Side (-Channel) of Mobile Devices: A Survey on Network Traffic Analysis</title>
+      <link>http://www.spolaor.com/publication/the-dark-side-channel/</link>
+      <pubDate>Mon, 04 Jun 2018 14:48:00 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/the-dark-side-channel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DELTA: Data Extraction and Logging Tool for Android</title>
+      <link>http://www.spolaor.com/publication/delta/</link>
+      <pubDate>Fri, 01 Jun 2018 14:48:27 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/delta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Covert lie detection using keyboard dynamics</title>
+      <link>http://www.spolaor.com/publication/covert-lie-detection-keyboard/</link>
+      <pubDate>Sun, 28 Jan 2018 14:49:34 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/covert-lie-detection-keyboard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust smartphone app identification via encrypted network traffic analysis</title>
+      <link>http://www.spolaor.com/publication/appscanner-journal/</link>
+      <pubDate>Wed, 09 Aug 2017 14:45:13 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/appscanner-journal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biometric Authentication Methods on Smartphones: A Survey</title>
+      <link>http://www.spolaor.com/publication/biometric-auth-survey/</link>
+      <pubDate>Thu, 01 Dec 2016 14:46:55 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/biometric-auth-survey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analyzing Android Encrypted Network Traffic to Identify User Actions</title>
+      <link>http://www.spolaor.com/publication/cant-you-hear-me-knocking-journal/</link>
+      <pubDate>Mon, 14 Sep 2015 14:43:53 +0800</pubDate>
+      <guid>http://www.spolaor.com/publication/cant-you-hear-me-knocking-journal/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
