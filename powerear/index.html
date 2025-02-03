@@ -1,0 +1,427 @@
+
+ <!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerEar</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body >
+    <header>
+        <h1>PowerEar</h1>
+    </header>
+    <main>
+    <section>
+        <h1>
+            1 PowerEar explanation
+        </h1>
+        <article>
+            <h2>PowerEar is an acoustic eavesdropping attack that leverages the power side channel to reconstruct any audio reproduced by the built-in speaker of a mobile device, with a non-constrained vocabulary. 
+            Our approach relies on a combination of signal processing and generative artificial intelligence techniques to learn the mapping between power consumption and audio playback, enabling the reconstruction of such audio through spectrogram enhancement.
+            </h2>    
+            <h2>Typically, the fundamental frequencies of the human voice range from 300Hz to 3.4kHz.
+            The English language has a total of 48 phonemes that can be bisected into 20 vowels and 28 consonants. 
+            As we can observe in the figures, vowels have their main frequency components below 2kHz (see Figure a) while labial and fricative consonants can reach frequencies up to 8kHz (see Figure c). 
+            </h2>
+            <h2>
+            The built-in speaker of a mobile device causes current fluctuations that are related to the audio played.
+            Therefore, we measure the resulting power traces, for which we report the spectrograms of the vowels in Figure b and the consonants in Figure d.
+            </h2>
+            <table><tr>
+            <td>
+                <img src="asset/images/audio_spectrogram_vowels.png"   alt="Audio of vowels" class="device-image">
+                <p class="media-description" >(a) Audio of vowels</p>
+            
+                <img src="asset/images/power_data_spectrogram_vowels.png"  alt="Audio of vowels" class="device-image">
+                <p class="media-description" >(b) Power trace of vowels</p>
+            </td>
+            <td>
+                <img src="asset/images/audio_spectrogram_consonants.png" alt="Audio of vowels" class="device-image">
+                <p class="media-description" >(c) Audio of consonants</p>
+        
+                <img src="asset/images/power_data_spectrogram_consonants.png"  alt="Audio of vowels" class="device-image">
+                <p class="media-description" >(d) Power trace of consonants</p>
+            </td>
+            </tr></table>
+        </section>
+    <section>
+        <h1>
+            2 Here is the compare result of Original and Reconstructing audio with different device
+        </h1>
+            <article>
+                <h3>iPhone 11</h3>
+                
+                <table><tr>
+                    <td>
+                        <img src="asset/audio/mergewav/iPhone11/real_mel_spectrogram.png"   alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(a) Power trace of Original audio</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/mergewav/iPhone11/iPhone11_noise_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(b) RAW power trace</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/mergewav/iPhone11/input_mel_spectrongram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(c) RAW power trace after removing noise</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/mergewav/iPhone11/fake_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(d) Power trace of Reconstructing audio</p>
+                    </td>
+                    
+                </tr></table>
+                <p><strong>Original Audio vs Reconstructing Audio </strong></p>
+                <div class="audio-pair">
+                    
+                    <audio controls>
+                        <source src="asset/audio/mergewav_small/iPhone11/real.wav" type="audio/wav">
+                    </audio>
+                    <audio controls>
+                        <source src="asset/audio/mergewav_small/iPhone11/fake.wav" type="audio/wav">
+                    </audio>
+                </div>
+            </article>
+            <article>
+                <h3>iPhone 12</h3>
+                <table><tr>
+                    <td>
+                        <img src="asset/audio/mergewav/iPhone12/real_mel_spectrogram.png"   alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(a) Power trace of Original audio</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/mergewav/iPhone12/iPhone12_noise_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(b) RAW power trace</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/mergewav/iPhone12/input_mel_spectrongram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(c) RAW power trace after removing noise</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/mergewav/iPhone12/fake_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(b) Power trace of Reconstructing audio</p>
+                    </td>
+                </tr></table>
+                <p><strong>Original Audio vs Reconstructing Audio </strong></p>
+                <div class="audio-pair">
+                    <audio controls>
+                        <source src="asset/audio/mergewav_small/iPhone12/real.wav" type="audio/wav">
+                        您的浏览器不支持 audio 标签。
+                    </audio>
+                    <audio controls>
+                        <source src="asset/audio/mergewav_small/iPhone12/fake.wav" type="audio/wav">
+                        您的浏览器不支持 audio 标签。
+                    </audio>
+                    
+                </div>
+                    
+                </div>
+            </article>
+            <article>
+                <h3>iPhone 14</h3>
+                <table><tr>
+                    <td>
+                        <img src="asset/audio/mergewav/iPhone14/real_mel_spectrogram.png"   alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(a) Power trace of Original audio</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/mergewav/iPhone14/iPhone14_noise_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(b) RAW power trace</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/mergewav/iPhone14/input_mel_spectrongram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(c) RAW power trace after removing noise</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/mergewav/iPhone14/fake_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(b) Power trace of Reconstructing audio</p>
+                    </td>
+                </tr></table>
+                <p><strong>Original Audio vs Reconstructing Audio </strong></p>
+                <div class="audio-pair">
+                    <audio controls>
+                        <source src="asset/audio/mergewav_small/iPhone14/real.wav" type="audio/wav">
+                        您的浏览器不支持 audio 标签。
+                    </audio>
+                    <audio controls>
+                        <source src="asset/audio/mergewav_small/iPhone14/fake.wav" type="audio/wav">
+                        您的浏览器不支持 audio 标签。
+                    </audio>
+                </div>
+            </article>
+            <article>
+                <h3>one plus12</h3>
+                <p><strong>Original Audio vs Reconstructing Audio </strong></p>
+                <table><tr>
+                    <td>
+                        <img src="asset/audio/mergewav/one/real_mel_spectrogram.png"   alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(a) Power trace of Original audio</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/mergewav/one/one_noise_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(b) RAW power trace</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/mergewav/one/input_mel_spectrongram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(c) RAW power trace after removing noise</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/mergewav/one/fake_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(b) Power trace of Reconstructing audio</p>
+                    </td>
+                </tr></table>
+                <div class="audio-pair">
+                    
+                    <audio controls>
+                        <source src="asset/audio/mergewav_small/one/real.wav" type="audio/wav">
+                        您的浏览器不支持 audio 标签。
+                    </audio>
+                    <audio controls>
+                        <source src="asset/audio/mergewav_small/one/fake.wav" type="audio/wav">
+                        您的浏览器不支持 audio 标签。
+                    </audio>
+                </div>
+            </article>
+            <article>
+                <h3>sony</h3>
+                <table><tr>
+                    <td>
+                        <img src="asset/audio/mergewav/sony/real_mel_spectrogram.png"   alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(a) Power trace of Original audio</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/mergewav/sony/sony_noise_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(b) RAW power trace</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/mergewav/sony/input_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(c) RAW power trace after removing noise</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/mergewav/sony/fake_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(b) Power trace of Reconstructing audio</p>
+                    </td>
+                </tr></table>
+                <p><strong>Original Audio vs Reconstructing Audio </strong></p>
+                <div class="audio-pair">
+                    
+                    <audio controls>
+                        <source src="asset/audio/mergewav_small/sony/real.wav" type="audio/wav">
+                        您的浏览器不支持 audio 标签。
+                    </audio>
+                    <audio controls>
+                        <source src="asset/audio/mergewav_small/sony/fake.wav" type="audio/wav">
+                        您的浏览器不支持 audio 标签。
+                    </audio>
+                </div>
+            </article>
+
+            <h1>
+                3 Here is the compare result of Original and Reconstructing audio with different language
+            </h1>
+            <article>
+                <h3>Chinese</h3>
+                <table><tr>
+                    <td>
+                        <img src="asset/audio/powerEar_demo/Chinese_real_mel_spectrogram.png"   alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(a) Power trace of Original audio</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/powerEar_demo/Chinese_noise_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(b) RAW power trace</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/powerEar_demo/Chinese_input_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(c) RAW power trace after removing noise</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/powerEar_demo/Chinese_fake_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(b) Power trace of Reconstructing audio</p>
+                    </td>
+                </tr></table>
+                <p><strong>Original Audio vs Reconstructing Audio with Chinese</strong></p>
+                <div class="audio-pair">
+                    
+                    <audio controls>
+                        <source src="asset/audio/powerEar_demo/Chinese_audio1_original.wav" type="audio/wav">
+                        您的浏览器不支持 audio 标签。
+                    </audio>
+                    <audio controls>
+                        <source src="asset/audio/powerEar_demo/Chinese_audio1_reconstructed.wav" type="audio/wav">
+                        您的浏览器不支持 audio 标签。
+                    </audio>
+                </div>
+            </article>
+            <article>
+                <h3>English</h3>
+                <table><tr>
+                    <td>
+                        <img src="asset/audio/powerEar_demo/English_real_mel_spectrogram.png"   alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(a) Power trace of Original audio</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/powerEar_demo/English_noise_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(b) RAW power trace</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/powerEar_demo/English_input_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(c) RAW power trace after removing noise</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/powerEar_demo/English_fake_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(b) Power trace of Reconstructing audio</p>
+                    </td>
+                </tr></table>
+                <p><strong>Original Audio vs Reconstructing Audio with English</strong></p>
+                <div class="audio-pair">
+                    
+                    <audio controls>
+                        <source src="asset/audio/powerEar_demo/English_audio1_original.wav" type="audio/wav">
+                        您的浏览器不支持 audio 标签。
+                    </audio>
+                    <audio controls>
+                        <source src="asset/audio/powerEar_demo/English_audio1_reconstructed.wav" type="audio/wav">
+                        您的浏览器不支持 audio 标签。
+                    </audio>
+                </div>
+            </article>
+            <article>
+                <h3>Italian</h3>
+                <table><tr>
+                    <td>
+                        <img src="asset/audio/powerEar_demo/Italian_real_mel_spectrogram.png"   alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(a) Power trace of Original audio</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/powerEar_demo/Italian_noise_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(b) RAW power trace</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/powerEar_demo/Italian_input_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(c) RAW power trace after removing noise</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/powerEar_demo/Italian_fake_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(b) Power trace of Reconstructing audio</p>
+                    </td>
+                </tr></table>
+                <p><strong>Original Audio vs Reconstructing Audio with Italian</strong></p>
+                <div class="audio-pair">
+                    
+                    <audio controls>
+                        <source src="asset/audio/powerEar_demo/Italian_audio1_original.wav" type="audio/wav">
+                        您的浏览器不支持 audio 标签。
+                    </audio>
+                    <audio controls>
+                        <source src="asset/audio/powerEar_demo/Italian_audio1_reconstructed.wav" type="audio/wav">
+                        您的浏览器不支持 audio 标签。
+                    </audio>
+                </div>
+            </article>
+            <article>
+                <h3>French</h3>
+                <table><tr>
+                    <td>
+                        <img src="asset/audio/powerEar_demo/French_real_mel_spectrogram.png"   alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(a) Power trace of Original audio</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/powerEar_demo/French_noise_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(b) RAW power trace</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/powerEar_demo/French_input_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(c) RAW power trace after removing noise</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/powerEar_demo/French_fake_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(b) Power trace of Reconstructing audio</p>
+                    </td>
+                </tr></table>
+                <p><strong>Original Audio vs Reconstructing Audio with French</strong></p>
+                <div class="audio-pair">
+                    
+                    <audio controls>
+                        <source src="asset/audio/powerEar_demo/French_audio1_original.wav" type="audio/wav">
+                        您的浏览器不支持 audio 标签。
+                    </audio>
+                    <audio controls>
+                        <source src="asset/audio/powerEar_demo/French_audio1_reconstructed.wav" type="audio/wav">
+                        您的浏览器不支持 audio 标签。
+                    </audio>
+                </div>
+            </article>
+            <article>
+                <h3>Spanish</h3>
+                <table><tr>
+                    <td>
+                        <img src="asset/audio/powerEar_demo/Spanish_real_mel_spectrogram.png"   alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(a) Power trace of Original audio</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/powerEar_demo/Spanish_noise_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(b) RAW power trace</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/powerEar_demo/Spanish_input_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(c) RAW power trace after removing noise</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/powerEar_demo/Spanish_fake_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(b) Power trace of Reconstructing audio</p>
+                    </td>
+                </tr></table>
+                <p><strong>Original Audio vs Reconstructing Audio with Spanish</strong></p>
+                <div class="audio-pair">
+                    
+                    <audio controls>
+                        <source src="asset/audio/powerEar_demo/Spanish_audio1_original.wav" type="audio/wav">
+                        您的浏览器不支持 audio 标签。
+                    </audio>
+                    <audio controls>
+                        <source src="asset/audio/powerEar_demo/Spanish_audio1_reconstructed.wav" type="audio/wav">
+                        您的浏览器不支持 audio 标签。
+                    </audio>
+                </div>
+            </article>
+            <article>
+                <h3>Germany</h3>
+                <table><tr>
+                    <td>
+                        <img src="asset/audio/powerEar_demo/Germany_real_mel_spectrogram.png"   alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(a) Power trace of Original audio</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/powerEar_demo/Germany_noise_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(b) RAW power trace</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/powerEar_demo/Germany_input_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(c) RAW power trace after removing noise</p>
+                    </td>
+                    <td>
+                        <img src="asset/audio/powerEar_demo/Germany_fake_mel_spectrogram.png"  alt="Audio of vowels" class="device-image">
+                        <p class="media-description" >(b) Power trace of Reconstructing audio</p>
+                    </td>
+                </tr></table>
+                <p><strong>Original Audio vs Reconstructing Audio with Germany</strong></p>
+                <div class="audio-pair">
+                    
+                    <audio controls>
+                        <source src="asset/audio/powerEar_demo/Germany_audio1_original_small.wav" type="audio/wav">
+                        您的浏览器不支持 audio 标签。
+                    </audio>
+                    <audio controls>
+                        <source src="asset/audio/powerEar_demo/Germany_audio1_reconstructed_small.wav" type="audio/wav">
+                        您的浏览器不支持 audio 标签。
+                    </audio>
+                </div>
+            </article>
+    </section>
+
+    </main>
+    <footer>
+        <p>&copy; PowerEar 2024 audio results</p>
+    </footer>
+</body>
+</html> 

@@ -1,0 +1,95 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: url("back.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* 背景图固定 */
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+}
+
+
+.flex-item {
+    flex: 0 0 25%; 
+    padding: 15px;
+    box-sizing: border-box; 
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+}
+.device-image {
+    width:100%;
+    max-width: 1000px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+.media-description {
+    flex: 1;
+}
+.audio-comparison {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.PowerEar-explanation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; 
+}
+article {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    width: calc(100% - 20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.audio-pair {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+}
+
+@media (max-width: 768px) {
+    .audio-pair {
+        grid-template-columns: 1fr; 
+    }
+}
+
+audio {
+    width: 100%;
+}
+main {
+    margin-bottom: 50px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #35424a;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} 
